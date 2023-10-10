@@ -1,12 +1,14 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
+import { Icon } from "astro-icon/components";
+import "tippy.js/dist/tippy.css";
 ---
 
 <Layout title="sbtn.tokyo">
   <main class="text-white">
     <h1 class="text-4xl font-bold my-12">sbtn.tokyo</h1>
-    <h3 class="text-2xl font-bold my-4">提供サービス</h3>
+    <h3 class="text-2xl font-bold my-8" id="services">提供サービス</h3>
     <ul role="list" class="grid grid-cols-1 md:grid-cols-2 gap-8">
       <Card
         icon="mdi:minecraft"
@@ -20,6 +22,90 @@ import Card from "../components/Card.astro";
         title="【令和最新版】サボテンサーバー"
         body="通話のためのDiscord鯖"
       />
+      <Card
+        icon="ph:handshake-fill"
+        href="#"
+        title="エンカ"
+        body="いつでも、どこでも。"
+      />
     </ul>
+    <h3 class="text-2xl font-bold my-8" id="contact">お問い合わせ</h3>
+    <h4 class="text-xl font-bold my-4">&gt; カスタマーサポート</h4>
+    <p class="text-lg font-medium">@saisabo10</p>
+    <div class="flex flex-row gap-3 mt-4 mb-8">
+      <a
+        href="https://twitter.com/saisabo10"
+        id="x-twitter"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <Icon name="fa6-brands:x-twitter" class="w-8 h-8" />
+      </a>
+      <a
+        href="https://misskey.io/@saisabo10"
+        id="misskey"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <Icon name="simple-icons:misskey" class="w-8 h-8" />
+      </a>
+    </div>
+    <h4 class="text-xl font-bold my-4">&gt; テクニカルサポート</h4>
+    <p class="text-lg font-medium">@wamo</p>
+    <div class="flex flex-row gap-3 mt-4 mb-8">
+      <a
+        href="https://twitter.com/scgame_m"
+        id="x-twitter"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <Icon name="fa6-brands:x-twitter" class="w-8 h-8" />
+      </a>
+      <a
+        href="https://misskey.io/@wamo"
+        id="misskey"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <Icon name="simple-icons:misskey" class="w-8 h-8" />
+      </a>
+      <a
+        href="https://mstdn.jp/@scgame_m"
+        id="mastodon"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <Icon name="fa6-brands:mastodon" class="w-8 h-8" />
+      </a>
+      <a
+        href="https://t.me/wamosc"
+        id="telegram"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <Icon name="fa6-brands:telegram" class="w-8 h-8" />
+      </a>
+    </div>
+    <p class="mt-24">&copy; 2023 sbtn.tokyo</p>
   </main>
 </Layout>
+
+<script>
+  import tippy from "tippy.js";
+  tippy("#x-twitter", {
+    content: "X (旧Twitter)",
+    placement: "top",
+  });
+  tippy("#misskey", {
+    content: "misskey.io",
+    placement: "top",
+  });
+  tippy("#mastodon", {
+    content: "mstdn.jp",
+    placement: "top",
+  });
+  tippy("#telegram", {
+    content: "Telegram",
+    placement: "top",
+  });
+</script>
