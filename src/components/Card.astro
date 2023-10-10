@@ -10,7 +10,9 @@ interface Props {
 const { href, title, body, icon } = Astro.props;
 ---
 
-<li class="flex p-8 bg-stone-700 rounded-lg shadow-lg">
+<li
+  class="flex p-8 bg-stone-700 rounded-lg shadow-lg border border-stone-700 hover:border-stone-400 duration-200"
+>
   <a href={href}>
     <Icon name={icon} width="50" height="50" class="mb-5" />
     <h2 class="text-white text-xl font-bold">
