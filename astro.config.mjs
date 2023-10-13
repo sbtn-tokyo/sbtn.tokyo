@@ -9,7 +9,7 @@ export default defineConfig({
       mdi: ["minecraft"],
       "fa-brands": ["discord"],
       ph: ["handshake-fill"],
-      "fa6-brands": ["x-twitter", "telegram", "mastodon"],
+      "fa6-brands": ["x-twitter", "telegram", "mastodon", "wikipedia-w"],
       "simple-icons": ["misskey"]
     },
   }),, tailwind()]
