@@ -18,6 +18,20 @@ module.exports = {
           "monospace",
         ],
       },
+      typography: {
+        DEFAULT: {
+          css: [
+            {
+              hr: {
+                borderColor: "white"
+              },
+              'ul > li::marker': {
+                color: 'white',
+              },
+            }
+          ]
+        },
+      },
     },
 	},
 	plugins: [require('@tailwindcss/forms'),require('@tailwindcss/typography')],
