@@ -46,7 +46,6 @@ author: "さぼてん"
 
 #### 所持端末（2023/12/2現在）
 
-- 
 - Rakuten hand
 - Rakuten Big
 - GALAXY camera
@@ -204,4 +203,3 @@ DMやリプでも絡んでくれたらモチベーションになります、め
 - [X(Twitter)](https://x.com/saisabo10)
 - [Instagram](https://instagram.com/saisabo10)
 - [干し芋のリスト](https://www.amazon.jp/hz/wishlist/ls/2OER50S284I5A?ref_=wl_share)
-- 
