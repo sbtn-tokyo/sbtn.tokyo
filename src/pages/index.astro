@@ -60,6 +60,14 @@ import "tippy.js/dist/tippy.css";
         <Icon name="fa6-brands:x-twitter" class="w-8 h-8" />
       </a>
       <a
+        href="https://bsky.app/profile/saisabo10.bsky.social"
+        id="bluesky"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <Icon name="ri:bluesky-fill" class="w-8 h-8" />
+      </a>
+      <a
         href="https://misskey.io/@saisabo10"
         id="misskey"
         rel="noopener noreferrer"
@@ -78,6 +86,14 @@ import "tippy.js/dist/tippy.css";
         target="_blank"
       >
         <Icon name="fa6-brands:x-twitter" class="w-8 h-8" />
+      </a>
+      <a
+        href="https://bsky.app/profile/wmsci.com"
+        id="bluesky"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <Icon name="ri:bluesky-fill" class="w-8 h-8" />
       </a>
       <a
         href="https://misskey.io/@wamo"
@@ -116,6 +132,10 @@ import "tippy.js/dist/tippy.css";
   });
   tippy("#misskey", {
     content: "misskey.io",
+    placement: "top",
+  });
+  tippy("#bluesky", {
+    content: "Bluesky",
     placement: "top",
   });
   tippy("#mastodon", {
