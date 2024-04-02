@@ -49,18 +49,21 @@ author: "さぼてん"
 
 小型端末がすきです
 
-#### 所持端末（2024/1/5現在）
+#### 所持端末（2024/4/2現在）
 スマホ
-- Rakuten hand
-- Rakuten Big
+- Rakuten hand（買い戻したやつ）
+- Rakuten Big（メイン回線で運用）
 - GALAXY camera（Androidデジカメ）
-- sh-03m（Androidキッズ携帯）
+- Pixel3（写真撮影用）
+- Mate20Pro（頂き物）
 - GRATINA（ガラホ）
+- IS03（ワンセグ用）
+- 
 パソコン
 - NECのノートPC（7世代i5/RAM16GB/SSD256GB）
 - ThinkPad（2世代i5/RAM8GB）
-- 大好きなフォロワーさんから貰ったi5のデスクトップ（2世代i5/RAM4GB）
-
+- 富士通のデスクトップ（2世代i5/RAM4GB）（頂き物）
+- HPのデスクトップ（7世代i3/RAM8GB）
 ***
 ### 交通
 
