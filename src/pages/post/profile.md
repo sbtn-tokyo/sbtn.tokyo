@@ -58,6 +58,7 @@ author: "さぼてん"
 - Mate20Pro（頂き物）
 - GRATINA（ガラホ）
 - IS03（ワンセグ用）
+
 パソコン
 - NECのノートPC（7世代i5/RAM16GB/SSD256GB）
 - ThinkPad（2世代i5/RAM8GB）
